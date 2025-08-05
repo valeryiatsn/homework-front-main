@@ -29,7 +29,7 @@ export const HW3 = () => {
 
       <input id={'hw03-input'} type="text" value={currentText} onChange={handleChange} />
 
-      <button id={'hw03-button'} onClick={() => handleSave}>
+      <button id={'hw03-button'} onClick={() => handleSave()}>
         Сохранить
       </button>
 
